@@ -74,7 +74,7 @@ div.content {
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md 12">
+            <div class="col-md-12">
                 <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
                 <a class="navbar-brand" href="#">Student Management System</a>
@@ -83,23 +83,20 @@ div.content {
             </div>
         </div>
         <div class="row">
-            <div class="col-md 3">
+            <div class="col-md-3">
                 <div class="sidebar">
                     <a class="active" href="#home">Home</a>
-                    <a href="#news">News</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
-                  </div>
+                    <a href="{{url('/students')}}">Student</a>
+                    <a href="#contact">Teacher</a>
+                    <a href="#about">Courses</a>
+                    <a href="#about">Enrollment</a>
+                    <a href="#about">Payment</a>
             </div>
-            <div class="col-md 9">
+            </div>
+            <div class="col-md-9">
+                @yield('content')
                 
-                <div class="content">
-                    ..
-                  </div>
-
             </div>
-
-       
         </div>
         </div>
     
