@@ -76,8 +76,8 @@ div.content {
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#">Student Management System</a>
+                <div class="container-fluid" text-align =center>
+                <a class="navbar-brand"  href="#">Student Management System</a>
                 </div>
             </nav>
             </div>
@@ -87,7 +87,7 @@ div.content {
                 <div class="sidebar">
                     <a class="active" href="#home">Home</a>
                     <a href="{{url('/students')}}">Student</a>
-                    <a href="#contact">Teacher</a>
+                    <a href="{{url('/teachers')}}">Teacher</a>
                     <a href="#about">Courses</a>
                     <a href="#about">Enrollment</a>
                     <a href="#about">Payment</a>
