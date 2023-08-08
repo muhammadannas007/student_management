@@ -88,9 +88,10 @@ div.content {
                     <a class="active" href="#home">Home</a>
                     <a href="{{url('/students')}}">Student</a>
                     <a href="{{url('/teachers')}}">Teacher</a>
-                    <a href="#about">Courses</a>
-                    <a href="#about">Enrollment</a>
-                    <a href="#about">Payment</a>
+                    <a href="{{url('/courses')}}">Courses</a>
+                    <a href="{{url('/batches')}}">Batches</a>
+                    <a href="{{url('/enrollments')}}">Enrollment</a>
+                    <a href="{{url('/payments')}}">Payment</a>
             </div>
             </div>
             <div class="col-md-9">
